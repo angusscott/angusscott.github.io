@@ -38,10 +38,10 @@ body {
     background-size: cover;
 
     height: 100%;
-    background-color: #a1daff;
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    text-shadow: none
 
 }
 
@@ -57,8 +57,11 @@ body {
     vertical-align: top;
 }
 .cover-container {
+    display: table;
+    margin: 0 auto;
     margin-right: auto;
     margin-left: auto;
+
 }
 
 /* Padding for spacing */
@@ -133,6 +136,7 @@ body {
 .mastfoot {
     color: #999; /* IE8 proofing */
     color: rgba(255,255,255,.5);
+    text-align: center;
 }
 
 
@@ -170,6 +174,9 @@ body {
     }
 }
 
+.mastfoot-nav{
+    text-align: center;
+}
 .mastfoot-nav > li {
     display: inline-block;
 }
@@ -181,8 +188,8 @@ body {
     padding-left: 0;
     font-size: 16px;
     font-weight: bold;
-    color: #fff; /* IE8 proofing */
-    color: rgba(255,255,255,.95);
+    color: #000; /* IE8 proofing */
+    color: rgba(0,0,0,.95);
     border-bottom: 2px solid transparent;
 }
 .mastfoot-nav > li > a:hover,
@@ -195,8 +202,8 @@ body {
 .mastfoot-nav > .active > a,
 .mastfoot-nav > .active > a:hover,
 .mastfoot-nav > .active > a:focus {
-    color: #fff;
-    border-bottom-color: #fff;
+    color: #000;
+    border-bottom-color: #000;
 }
 
 .socialbuttons{
